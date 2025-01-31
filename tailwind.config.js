@@ -11,6 +11,7 @@ module.exports = {
         'navbtn' : 'rgb(23, 152, 0)',
         'gradianfrom' : 'rgb(255, 255, 255)',
         'gradianto' : 'rgb(239, 235, 227)',
+        'servicebg' : 'rgb(239, 235, 227)',
       },
       animation: {
         cust: 'cust 5s ease-in-out infinite',
