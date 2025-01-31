@@ -17,12 +17,13 @@
     <!-- --------------------------- Header Section ----------------------------- -->
      <header class="bg-gradient-to-b from-gradianfrom to-gradianto">
         <!-- navbar -->
-         <nav class="container mx-auto py-3 px-4 lg:px-0">
+         <nav class="container mx-auto py-3 px-4 lg:px-0 border-b border-navbtn sm:border-none">
             <!-- main -->
             <div class="flex items-center">
                 <!-- logo div -->
                  <div class="flex-1">
-                    <img src="c2-assets/logo-header.png" alt="">
+                     <img class="lg:hidden sm:block" src="c2-assets/Group.png" alt="">
+                    <img class="hidden lg:block" src="c2-assets/logo-header.png" alt="">
                  </div>
                  <!-- navba items and icons -->
                   <div class="hidden lg:block">
@@ -41,7 +42,7 @@
                          <!-- buttons -->
                           <div class="">
                             <button class="border-solid border border-navbtn rounded-lg py-2 px-7 mr-3 hover:bg-navbtn hover:text-white transition-all duration-100">Login</button>
-                            <button class="bg-navbtn py-2 px-7 rounded-lg text-white border border-solid border-transparent hover:bg-white hover:border-navbtn hover:text-navbtn transition-all duration-100">Register</button>
+                            <button class="bg-navbtn py-2 px-7 rounded-lg text-white border border-solid border-transparent hover:bg-green-500 transition-all duration-100">Register</button>
                           </div>
 
                      </div>
@@ -52,10 +53,19 @@
                    </div>
             </div>
          </nav>
-         
-         <!--  -->
+
+         <!-- Banner Section -->
+          <div class="container mx-auto mt-24 text-center px-5 sm:p-0">
+            <!-- banner text -->
+             <div>
+               <h2 class="sm:text-6xl text-4xl font-semibold">Freshness <span class="text-navbtn">You Can <br> Count</span> On, Prices You’ll Love!</h2>
+               <p class="sm:max-w-[800px] text-base font-light mx-auto sm:text-xl my-8 text-gray-500">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+             </div>
+             <!-- banner image -->
+              <div>
+                  <img class="mx-auto sm:w-[603px]" src="c2-assets/hero-vegetables.png" alt="">
+              </div>
+          </div>
      </header>
-     <div>
-     </div>
 </body>
 </html>
