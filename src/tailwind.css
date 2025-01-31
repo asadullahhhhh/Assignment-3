@@ -1,6 +1,13 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navitem {
+    @apply mr-8;
+  }
 
+  .hov {
+    @apply hover:text-navbtn;
+  }
+}
