@@ -16,6 +16,10 @@ module.exports = {
         'servicebg' : 'rgb(239, 235, 227)',
         'cardoffer' : 'rgb(83, 219, 58)',
         'cardoffer-2' : 'rgb(223, 248, 218)',
+        'ariivelcard' : 'rgb(17, 84, 20)',
+        'arrivelcardbtn' : 'rgb(99, 183, 109)',
+        'arrivelcard2' : 'rgb(16, 40, 97)',
+        'arrivelcard2btn' : 'rgb(42, 77, 151)',
       },
       // Animation
       animation: {
