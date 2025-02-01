@@ -2,17 +2,22 @@
 module.exports = {
   content: ['*'],
   theme: {
+    // font family
     fontFamily: {
       'sora': ["Sora", "serif"],
     },
     extend: {
+      // Colors
       colors: {
         'navItemsColor' : 'rgb(17, 17, 17)',
         'navbtn' : 'rgb(23, 152, 0)',
         'gradianfrom' : 'rgb(255, 255, 255)',
         'gradianto' : 'rgb(239, 235, 227)',
         'servicebg' : 'rgb(239, 235, 227)',
+        'cardoffer' : 'rgb(83, 219, 58)',
+        'cardoffer-2' : 'rgb(223, 248, 218)',
       },
+      // Animation
       animation: {
         cust: 'cust 5s ease-in-out infinite',
       },
