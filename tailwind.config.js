@@ -20,6 +20,7 @@ module.exports = {
         'arrivelcardbtn' : 'rgb(99, 183, 109)',
         'arrivelcard2' : 'rgb(16, 40, 97)',
         'arrivelcard2btn' : 'rgb(42, 77, 151)',
+        'footerbg' : 'rgb(23, 152, 0)',
       },
       // Animation
       animation: {
