@@ -11,3 +11,31 @@
     @apply hover:text-navbtn;
   }
 }
+/* custom css */
+.card {
+  animation: fadeAnimation 20s infinite;
+}
+.cardOne {
+  animation-delay: 0s;
+}
+.cardTwo {
+  animation-delay: 5s;
+}
+.cardThree {
+  animation-delay: 10s;
+}
+.cardFour {
+  animation-delay: 15s;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    z-index: 11;
+  }
+  50% {
+    z-index: 0;
+  }
+  100% {
+    z-index: 0;
+  }
+}
