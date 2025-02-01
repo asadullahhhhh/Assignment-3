@@ -1477,6 +1477,10 @@ video {
     width: 65%;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-\[300px\] {
     max-width: 300px;
   }
